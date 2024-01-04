@@ -5,3 +5,7 @@
 .flex-center-all {
   @apply flex items-center justify-center;
 }
+
+.button-motion {
+  @apply hover:scale-110 active:scale-105 transition focus:scale-110 cursor-pointer;
+}
