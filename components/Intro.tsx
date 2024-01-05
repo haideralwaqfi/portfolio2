@@ -2,12 +2,12 @@
 import Image from "next/image";
 import React from "react";
 import { motion } from "framer-motion";
-import IntroParagraph from "./introParagraph";
+import IntroParagraph from "./IntroParagraph";
 import Link from "next/link";
 import { BsArrowRight, BsLinkedin } from "react-icons/bs";
 import { HiDownload } from "react-icons/hi";
 import { FaGithubSquare } from "react-icons/fa";
-import IntroIcons from "./introIcons";
+import IntroIcons from "./IntroIcons";
 
 function intro() {
   return (
