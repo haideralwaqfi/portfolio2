@@ -1,17 +1,20 @@
 "use client";
-import Image from "next/image";
-import React from "react";
 import { motion } from "framer-motion";
+import Image from "next/image";
 import IntroParagraph from "./IntroParagraph";
-import Link from "next/link";
-import { BsArrowRight, BsLinkedin } from "react-icons/bs";
-import { HiDownload } from "react-icons/hi";
-import { FaGithubSquare } from "react-icons/fa";
+
 import IntroIcons from "./IntroIcons";
 
-function intro() {
+import { useSectionInView } from "@/app/lib/hooks";
+
+function Intro() {
+  const { ref } = useSectionInView("Home", 0.5);
+
   return (
-    <section className="mb-28 max-w-[50rem] text-center sm:mb-0">
+    <section
+      ref={ref}
+      id="home"
+      className="scroll-mt-[100rem] mb-28 max-w-[50rem] text-center sm:mb-0">
       <div className="flex items-center justify-center">
         <div className="relative">
           <motion.div
@@ -48,4 +51,4 @@ function intro() {
   );
 }
 
-export default intro;
+export default Intro;
