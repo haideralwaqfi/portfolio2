@@ -1,8 +1,10 @@
+"use client";
 import SectionDivider from "@/components/SectionDivider";
 import Intro from "@/components/Intro";
 import About from "@/components/About";
 import Projects from "@/components/Projects";
 import Skills from "@/components/Skills";
+import Experiences from "@/components/Experiences";
 export default function Home() {
   return (
     <main className="flex flex-col items-center px-4">
@@ -11,6 +13,7 @@ export default function Home() {
       <About />
       <Projects />
       <Skills />
+      <Experiences />
     </main>
   );
 }
