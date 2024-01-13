@@ -1,11 +1,10 @@
-import React from "react";
-import { CgWorkAlt } from "react-icons/cg";
-import { FaReact } from "react-icons/fa";
-import { LuGraduationCap } from "react-icons/lu";
 import admin from "@/public/admin.png";
 import issueTracker from "@/public/issueTracker.png";
 import marketHouse from "@/public/marketHouse.png";
-import reactApplication2 from "@/public/reactApplication2.png";
+import React from "react";
+import { HiOutlineDesktopComputer } from "react-icons/hi";
+import { LuGraduationCap } from "react-icons/lu";
+import { MdOutlineScience } from "react-icons/md";
 
 export const links = [
   {
@@ -36,28 +35,36 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Graduated bootcamp",
-    location: "Miami, FL",
+    title: "Bachelor's degree",
+    location: "Irbid, Jordan",
     description:
-      "I graduated after 6 months of studying. I immediately found a job as a front-end developer.",
+      "Medical Laboratory Sciences (Biotechnology and Microbiology) at Jordan University of Science and Technology.",
     icon: React.createElement(LuGraduationCap),
-    date: "2019",
+    date: "2013",
   },
   {
-    title: "Front-End Developer",
-    location: "Orlando, FL",
+    title: "Laboratory Technician",
+    location: "Amman, Jordan",
     description:
-      "I worked as a front-end developer for 2 years in 1 job and 1 year in another job. I also upskilled to the full stack.",
-    icon: React.createElement(CgWorkAlt),
-    date: "2019 - 2021",
+      "Working as Medical Laboratory Technician for the Medlabs Consultancy Group in Amman",
+    icon: React.createElement(MdOutlineScience),
+    date: "2013 - 2015",
   },
   {
-    title: "Full-Stack Developer",
-    location: "Houston, TX",
+    title: "Clinical Application Specialist/Analyst",
+    location: "Amman, Jordan",
     description:
-      "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
-    icon: React.createElement(FaReact),
-    date: "2021 - present",
+      "Lead and engage in the implementation of substantial clinical process modifications across diverse clinical areas, including ambulatory, outpatient, and inpatient departments.",
+    icon: React.createElement(HiOutlineDesktopComputer),
+    date: "2015 - 2020",
+  },
+  {
+    title: "Medical Laboratory Technologist",
+    location: "Irbid, Jordan",
+    description:
+      "Acquire substantial proficiency in clinical IT systems and applications specifically tailored for hospital and laboratory environments within the intricate domain of In Vitro Diagnostics, effectively integrating technology advancements to enhance diagnostic accuracy and efficiency.",
+    icon: React.createElement(MdOutlineScience),
+    date: "2020 - present",
   },
 ] as const;
 

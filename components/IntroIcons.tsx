@@ -27,20 +27,20 @@ export default function IntroIcons() {
       </Link>
 
       <a
-        className="group bg-white px-7 py-3 flex items-center gap-2 rounded-full outline-none   button-motion border border-black/10"
+        className="group bg-white px-7 py-3 flex items-center gap-2 rounded-full outline-none   button-motion border border-black/10 dark:bg-white/10"
         href="/haiderAlwaqfiResume.docx"
         download>
         Download CV{" "}
         <HiDownload className="opacity-60 group-hover:translate-y-1" />
       </a>
       <a
-        className="bg-white text-gray-700 p-4 flex items-center gap-2 rounded-full outline-none   button-motion border border-black/10 hover:text-gary-950"
+        className="bg-white text-gray-700 p-4 flex items-center gap-2 rounded-full outline-none   button-motion border border-black/10 hover:text-gary-950 dark:bg-white/10 dark:text-white/60"
         href="https://www.linkedin.com/in/haider-al-waqfi-pmp%C2%AE-76149480/"
         target="_blank">
         <BsLinkedin />
       </a>
       <a
-        className="bg-white text-[1.35rem] text-gray-700 p-4 flex items-center gap-2 rounded-full outline-none   button-motion border border-black/10 hover:text-gary-950"
+        className="bg-white text-[1.35rem] text-gray-700 p-4 flex items-center gap-2 rounded-full outline-none   button-motion border border-black/10 hover:text-gary-950 dark:bg-white/10 dark:text-white/60"
         href="https://github.com/haideralwaqfi"
         target="_blank">
         <FaGithubSquare />
